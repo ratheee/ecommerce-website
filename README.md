@@ -1,4 +1,3 @@
-# ecommerce-website
 # 🛒 EliteZone - E-Commerce Website
 
 EliteZone is a modern and responsive front-end e-commerce website built using HTML, CSS, and JavaScript.  

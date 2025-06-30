@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EliteZone - Online Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">EliteZone</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="search-cart">
+      <input type="text" id="searchInput" placeholder="Search products...">
+      <div class="cart-icon" id="cart-icon">🛒 <span id="cart-count">0</span></div>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h1>Welcome to EliteZone</h1>
+    <p>Shop the latest fashion and gear</p>
+    <button>Explore Now</button>
+  </section>
+
+  <!-- Product Section -->
+  <section class="products" id="product-list">
+    <!-- Products injected by JS -->
+  </section>
+
+  <!-- Cart Panel -->
+  <div class="cart-panel" id="cart-panel">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p class="total">Total: ₹<span id="cart-total">0</span></p>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 EliteZone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
